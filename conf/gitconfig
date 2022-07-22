@@ -1,0 +1,11 @@
+[user]
+	name = x
+	email = x@gmail.com
+[alias]
+	b = branch -a
+	last = log -1 HEAD
+	lf = log --oneline --no-merges --name-status
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
+	lh = log --follow -p --
+	ls = log -p --compact-summary --no-merges
+	unstage = reset HEAD --
